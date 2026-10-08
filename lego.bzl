@@ -63,17 +63,4 @@ lego_module_list = [
 "leds-s2mf301.ko"
 ]
 
-lego_dtbo_list = [
-"a36xq_eur_open_w00_r10.dtbo",
-"a36xq_eur_open_w00_r09.dtbo",
-"a36xq_eur_open_w00_r08.dtbo",
-"a36xq_eur_open_w00_r07.dtbo",
-"a36xq_eur_open_w00_r06.dtbo",
-"a36xq_eur_open_w00_r05.dtbo",
-"a36xq_eur_open_w00_r04.dtbo",
-"a36xq_eur_open_w00_r03.dtbo",
-"a36xq_eur_open_w00_r02.dtbo",
-"a36xq_eur_open_w00_r01.dtbo",
-"a36xq_eur_open_w00_r00.dtbo"
-]
 lego_model = 'a36xq'

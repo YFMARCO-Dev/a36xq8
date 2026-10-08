@@ -31,7 +31,6 @@ load(":msm_abl.bzl", "define_abl_dist")
 load(":msm_common.bzl", "define_top_level_config", "gen_config_without_source_lines", "get_out_dir")
 load(":msm_dtc.bzl", "define_dtc_dist")
 load(":target_variants.bzl", "la_variants")
-load(":lego.bzl", "lego_dtbo_list")
 load(":sec_dtb.bzl", "sec_dtb")
 
 def _define_build_config(
@@ -491,8 +490,6 @@ def define_msm_la(
         )
 
     in_tree_module_list += vendor_dlkm_module_unprotected_list
-
-    dtbo_list = dtbo_list + lego_dtbo_list
 
     dtbo_list = dtbo_list + sec_dtb(
         target = msm_target,
